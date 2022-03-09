@@ -81,7 +81,7 @@ auto operator<<(std::ostream &os, const Queue &queue) -> std::ostream & {
     }
 
     int i = queue.head;
-    while(1) {
+    while(true) {
         if(i == MAXSIZE)
             i = 0;
 
